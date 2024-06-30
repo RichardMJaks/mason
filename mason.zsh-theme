@@ -113,7 +113,7 @@ get_distro_logo () {
 
 if [ "$color_prompt" = yes ]; then
   PROMPT=$'%F{%(#.blue.214)}┌──${debian_chroot:+($debian_chroot)──}(%B%F{%(#.red.202)}%n$(get_distro_logo)%F{%(#.red.202)}%b%F{%(#.orange.214)})-[%B%F{reset}%(6~.%-1~/…/%4~.%5~)%b%F{%(#.blue.214)}]%F{%(#.orange.214)}$(__git_ps1 "  %s ")%F{%(#.blue.214)}\n└─%B%(#.%F{red}#.%F{208}$)%b%F{reset} '
-    RPROMPT=$'%(?.. %? %F{red}%B⨯%b%F{reset})%(1j. %j %F{yellow}%B⚙%b%F{reset}.)'
+  #  RPROMPT=$'%(?.. %? %F{red}%B⨯%b%F{reset})%(1j. %j %F{yellow}%B⚙%b%F{reset}.)'
 
     # enable syntax-highlighting
     if [ -f /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && [ "$color_prompt" = yes ]; then
