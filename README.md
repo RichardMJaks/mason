@@ -12,6 +12,7 @@ Mason is an [Ubunly](https://github.com/alejandromume/ubunly-zsh-theme) fork. Ma
     `sudo dnf install git`
 * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+* Nerd/Powerline font to provide unicode support for logos
 
 ## Preview
 Coming soon!
